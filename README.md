@@ -55,3 +55,5 @@
 
 ```
 
+
+![Metrics](./metrics.plugin.habits.facts.svg)
