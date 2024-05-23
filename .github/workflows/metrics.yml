@@ -6,25 +6,6 @@ on:
   schedule:
     - cron: "0 0 * * *"
 jobs:
-  metrics:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Check out code
-      uses: actions/checkout@v2
-    - name: Generate metrics
-      uses: lowlighter/metrics@latest
-      with:
-        template: terminal
-        filename: meta/metrics.plugin.languages.svg
-        token: ${{ secrets.METRICS_TOKEN }}
-        base: ""
-        plugin_languages: yes
-        plugin_languages_indepth: yes
-        # plugin_languages_ignored: >-
-        #   html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
-        #   gnuplot
-        plugin_languages_details: lines, bytes-size, percentage
-        plugin_languages_limit: 8
   isocalendar:
     runs-on: ubuntu-latest
     steps:
@@ -38,3 +19,24 @@ jobs:
         base: ""
         plugin_isocalendar: yes
         plugin_isocalendar_duration: full-year
+  habits:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2
+    - name: Generate coding habits
+      uses: lowlighter/metrics@latest
+      with:
+        filename: meta/metrics.plugin.habits.svg
+        token: ${{ secrets.METRICS_TOKEN }}
+        base: ""
+        plugin_habits: yes
+        plugin_habits_from: 200
+        plugin_habits_days: 14
+        plugin_habits_facts: yes
+        plugin_habits_charts: yes
+        plugin_habits_charts_type: classic
+        plugin_habits_trim: no
+        plugin_habits_languages_limit: 8
+        plugin_habits_languages_threshold: "0%"
+
