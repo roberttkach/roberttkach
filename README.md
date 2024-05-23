@@ -55,7 +55,7 @@
 
 ```
 
-![Metrics](https://github.com/roberttkach/roberttkach/blob/main/meta/metrics.plugin.isocalendar.svg)
-
-![Metrics](https://github.com/roberttkach/roberttkach/blob/main/meta/metrics.terminal.svg)
+<p align="center">
+  <img src="https://github.com/roberttkach/roberttkach/blob/main/meta/metrics.plugin.isocalendar.svg" alt="Metrics">
+</p>
 
