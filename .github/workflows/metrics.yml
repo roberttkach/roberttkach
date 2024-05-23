@@ -15,6 +15,6 @@ jobs:
       uses: lowlighter/metrics@latest
       with:
         template: terminal
-        filename: metrics.terminal.svg
+        filename: meta/metrics.terminal.svg
         token: ${{ secrets.METRICS_TOKEN }}
         base: header, metadata
