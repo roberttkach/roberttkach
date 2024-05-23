@@ -56,52 +56,16 @@
 ```
 
 
-# My Project
-
-## Isometric Commit Calendar
-
-![Isometric commit calendar](path/to/your/image.png)
-
-This plugin displays an isometric view of a user commit calendar along with a few additional statistics like current streak and average number of commits per day.
-
-### Full year calendar
-- [View full year calendar](https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.isocalendar.fullyear.svg)
-
-### Half year calendar
-- [View half year calendar](https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.isocalendar.svg)
-
-## Plugin Information
-
-### 📅 Isometric commit calendar
-**Category**: GitHub
-
-**Description**:
-  This plugin displays an isometric view of a user commit calendar along with a few additional statistics like current streak and average number of commits per day.
-
-**Examples**:
-  - Full year calendar: [Full year calendar](https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.isocalendar.fullyear.svg)
-  - Half year calendar: [Half year calendar](https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.isocalendar.svg)
-
-**Supports**: 
-  - user
-
-**Scopes**:
-  - public_access
-
-**Inputs**:
-
-- `plugin_isocalendar`:
-  **Description**:
-    Enable isocalendar plugin
-  **Type**: boolean
-  **Default**: no
-
-- `plugin_isocalendar_duration`:
-  **Description**:
-    Time range
-  **Type**: string
-  **Default**: half-year
-  **Values**:
-    - half-year
-    - full-year
-
+name: Recently used
+uses: lowlighter/metrics@latest
+with:
+  filename: metrics.plugin.languages.recent.svg
+  token: ${{ secrets.METRICS_TOKEN }}
+  base: ""
+  plugin_languages: yes
+  plugin_languages_ignored: >-
+    html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
+    gnuplot
+  plugin_languages_sections: recently-used
+  plugin_languages_details: bytes-size, percentage
+  plugin_languages_limit: 4
