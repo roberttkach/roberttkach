@@ -18,3 +18,16 @@ jobs:
         filename: meta/metrics.terminal.svg
         token: ${{ secrets.METRICS_TOKEN }}
         base: header, metadata
+  isocalendar:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2
+    - name: Generate isometric commit calendar
+      uses: lowlighter/metrics@latest
+      with:
+        filename: metrics.plugin.isocalendar.svg
+        token: ${{ secrets.METRICS_TOKEN }}
+        base: ""
+        plugin_isocalendar: yes
+
