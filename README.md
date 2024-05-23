@@ -56,4 +56,5 @@
 ```
 
 
-![Metrics](./metrics.plugin.habits.facts.svg)
+![Metrics](https://github.com/lowlighter/metrics/raw/master/source/plugins/habits/metrics.plugin.habits.charts.svg)
+
