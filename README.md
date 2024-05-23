@@ -55,6 +55,11 @@
 
 ```
 
+
+<p align="center">
+  <img src="https://github.com/roberttkach/roberttkach/blob/main/meta/metrics.plugin.habits.svg" alt="Metrics">
+</p>
+
 <p align="center">
   <img src="https://github.com/roberttkach/roberttkach/blob/main/meta/metrics.plugin.isocalendar.svg" alt="Metrics">
 </p>
