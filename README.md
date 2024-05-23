@@ -56,36 +56,52 @@
 ```
 
 
-name: 📅 Isometric commit calendar
-category: github
-description: |
-  This plugin displays an isometric view of a user commit calendar along with a few additional statistics like current streak and average number of commit per day.
-examples:
-  +full year calendar: https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.isocalendar.fullyear.svg
-  half year calendar: https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.isocalendar.svg
-index: 0
-supports:
+# My Project
+
+## Isometric Commit Calendar
+
+![Isometric commit calendar](path/to/your/image.png)
+
+This plugin displays an isometric view of a user commit calendar along with a few additional statistics like current streak and average number of commits per day.
+
+### Full year calendar
+- [View full year calendar](https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.isocalendar.fullyear.svg)
+
+### Half year calendar
+- [View half year calendar](https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.isocalendar.svg)
+
+## Plugin Information
+
+### 📅 Isometric commit calendar
+**Category**: GitHub
+
+**Description**:
+  This plugin displays an isometric view of a user commit calendar along with a few additional statistics like current streak and average number of commits per day.
+
+**Examples**:
+  - Full year calendar: [Full year calendar](https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.isocalendar.fullyear.svg)
+  - Half year calendar: [Half year calendar](https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.isocalendar.svg)
+
+**Supports**: 
   - user
-scopes:
+
+**Scopes**:
   - public_access
-inputs:
 
-  plugin_isocalendar:
-    description: |
-      Enable isocalendar plugin
-    type: boolean
-    default: no
+**Inputs**:
 
-  plugin_isocalendar_duration:
-    description: |
-      Time range
+- `plugin_isocalendar`:
+  **Description**:
+    Enable isocalendar plugin
+  **Type**: boolean
+  **Default**: no
 
-      - `half-year`: 180 days
-      - `full-year`: 1 year
-    type: string
-    default: half-year
-    values:
-      - half-year
-      - full-year
-
+- `plugin_isocalendar_duration`:
+  **Description**:
+    Time range
+  **Type**: string
+  **Default**: half-year
+  **Values**:
+    - half-year
+    - full-year
 
