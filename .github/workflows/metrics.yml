@@ -1,12 +1,12 @@
 name: Metrics
 
 on:
-  schedule: # Планирование обновлений (например, каждый день в полночь)
+  schedule:
     - cron: "0 0 * * *"
-  push: # Обновление при push, на случай, если workflow отключены
+  push:
     branches:
       - main
-  workflow_dispatch: # Разрешить ручной запуск
+  workflow_dispatch:
 
 jobs:
   metrics:
@@ -25,8 +25,14 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_charts: no
+          plugin_habits_charts_type: 'classic'
+          plugin_habits_trim: no
+          plugin_habits_languages_limit: 8
+          plugin_habits_languages_threshold: '0%'
           config_timezone: Europe/Paris
       - name: Commit and push changes
         run: |
