@@ -33,11 +33,11 @@
         </div>
       </div>
 
-<pre><div class="stdin"><span class="ps1-path">roberttkach@metrics</span>:<span class="ps1-location">~</span># locale</div><div class="stdout"><b>GO          </b> [##########          ] 45.86%
-<b>PYTHON      </b> [########            ] 39.59%
-<b>SHELL       </b> [###                 ] 12.74%
-<b>DOCKERFILE  </b> [#                   ] 0.96 %
-<b>HCL         </b> [#                   ] 0.86 %
+<pre><div class="stdin"><span class="ps1-path">roberttkach@metrics</span>:<span class="ps1-location">~</span># locale</div><div class="stdout"><b>GO          </b> [##########          ] 46.49%
+<b>PYTHON      </b> [########            ] 37.56%
+<b>SHELL       </b> [###                 ] 13.64%
+<b>HCL         </b> [#                   ] 1.88 %
+<b>DOCKERFILE  </b> [#                   ] 0.43 %
 </div>
 
 </pre>
