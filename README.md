@@ -56,5 +56,5 @@
 ```
 
 
-![Metrics](https://github.com/roberttkach/roberttkach/blob/main/metrics.terminal.svg)
+![Metrics](https://github.com/roberttkach/roberttkach/blob/main/meta/metrics.terminal.svg)
 
