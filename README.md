@@ -55,6 +55,7 @@
 
 ```
 
+![Metrics](https://github.com/roberttkach/roberttkach/blob/main/meta/metrics.plugin.isocalendar.svg)
 
 ![Metrics](https://github.com/roberttkach/roberttkach/blob/main/meta/metrics.terminal.svg)
 
