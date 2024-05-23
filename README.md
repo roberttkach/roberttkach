@@ -56,5 +56,5 @@
 ```
 
 
-![Metrics](https://github.com/lowlighter/metrics/blob/examples/metrics.terminal.svg)
+![Metrics](https://github.com/roberttkach/readme/blob/main/metrics.terminal.svg)
 
