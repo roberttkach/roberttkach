@@ -69,6 +69,7 @@
   <img src="https://github.com/roberttkach/roberttkach/blob/main/meta/metrics.plugin.isocalendar.svg" alt="Metrics">
 </p>
 
-<a href="mailto:dinerbone09@gmail.com?"><img src="https://img.shields.io/badge/gmail-00B2FF.svg?&style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://t.me/Halehpum?"><img src="https://img.shields.io/badge/telegram-00B2FF.svg?&style=for-the-badge&logo=telegram&logoColor=white"/></a>
-<a href="https://t.me/Halehpum?"><img src="https://img.shields.io/badge/vk-00B2FF.svg?&style=for-the-badge&logo=vk&logoColor=white"/></a>
+<p align="center">
+  <a href="mailto:dinerbone09@gmail.com?"><img src="https://img.shields.io/badge/gmail-009C4A.svg?&style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://t.me/roberttkach?"><img src="https://img.shields.io/badge/telegram-009C4A.svg?&style=for-the-badge&logo=telegram&logoColor=white"/></a>
+</p>
