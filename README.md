@@ -1,6 +1,8 @@
-### | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=anaconda,pytorch,sklearn,tensorflow,opencv" /></a> | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=docker,kubernetes,prometheus,grafana,terraform" /></a> | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis" /></a> |
-|:---|:---:|---:|
-
+<p align="center">
+  ### | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=anaconda,pytorch,sklearn,tensorflow,opencv" /></a> | <a 
+  href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=docker,kubernetes,prometheus,grafana,terraform" /></a> | <a     
+  href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis" /></a> |
+</p>
 
 ```                                                                                                                 
                                                                                                                             
