@@ -1,14 +1,6 @@
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,go,bash,kotlin,js,cpp" />
-  </a>
-</p>
+| <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=py,go,bash,kotlin,js,cpp" /></a> | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=docker,kubernetes,prometheus,grafana,terraform" /></a> |
+|:---|---:|
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=docker,kubernetes,git,prometheus,grafana,terraform" />
-  </a>
-</p>
 
 <p align="center">
   <a href="https://skillicons.dev">
