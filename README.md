@@ -1,3 +1,38 @@
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=go,bash,py,kotlin,js,cpp" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=anaconda,androidstudio,postman" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=docker,kubernetes,git,prometheus,django,gradle,grafana,nodejs,npm,opencv,pytorch,sklearn,tensorflow,terraform,react" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis,sqlite" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=figma,blender,ableton,ae,ai,ps,pr" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=arch,ubuntu" />
+  </a>
+</p>
 ```                                                                                                                 
                                                                                                                             
                                                                                                                             
